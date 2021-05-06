@@ -52,7 +52,7 @@
   <b>Filename:</b><br>
   &emsp;Obserbation files of "ROVER" are "rover_ublox.obs", "rover_mosaic.obs" and "rover_trimble.obs".<br>
   &emsp;Obserbation file of "BASE" is "base_trimble.obs".<br>
-  &emsp;Position of BaseStation was -3961904.9530, 3348993.7578, 3698211.7553 in the ECEF coordinates.<br>
+  &emsp;Position of BaseStation was -3961903.8578, 3348993.2385, 3698211.3503 in the ECEF coordinates.<br>
   
   <b>RINEX VERSION:</b>&emsp;RINEX 3.02<br>
   
@@ -153,7 +153,7 @@
 <b>Kashimoto Takahiro, Meijo University, TOKAI-SOFT Co.,ltd., Japan</b><br>
 
 ## Acknowledgment
-<b>This open dataset collection was conducted in the Cabinet Office's ÅgStrategic Innovation Creation Program (SIP) Phase 2 / Autonomous Driving (System and Service Expansion) / Recognition Technology Necessary for Autonomous Driving Technology (Levels 3 and 4).Åh The project was commissioned by the New Energy and Industrial Technology Development Organization (NEDO).</b><br>
+<b>This open dataset collection was conducted in the Cabinet Office's ‚ÄúStrategic Innovation Creation Program (SIP) Phase 2 / Autonomous Driving (System and Service Expansion) / Recognition Technology Necessary for Autonomous Driving Technology (Levels 3 and 4).‚Äù The project was commissioned by the New Energy and Industrial Technology Development Organization (NEDO).</b><br>
 
 ## License
 <b>Copyright (c) 2020, Meijo University All rights reserved.</b><br>
