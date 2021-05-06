@@ -5,8 +5,8 @@
  <b>This dataset is only available to users in Japan until it is ready to be used overseas. (2021/3/11)</b><br>
 ## System Description
 
-<img src="docs/car_image.png" width="512">
-<img src="docs/car_image_across.png" width="512">
+<img src="car_image.png" width="512">
+<img src="car_image_across.png" width="512">
 &emsp;This data was collected in the Odaiba area of Tokyo/Japan.<br>
 &emsp;The data includes information on the following sensors.<br>
 
@@ -131,7 +131,7 @@
   |  End  |  2077  |  548370  |
  
  <b>Environment:</b>&emsp;Odaiba/Tokyo Urban environment [[map](https://www.google.co.jp/maps/@35.6275683,139.7754449,14.75z?hl=ja)]<br>
- <img src="docs/image_run1.png" width="480">
+ <img src="image_run1.png" width="480">
 ***
 ### Data No.2 
  <b>Date&emsp;2019/11/02</b><br>
@@ -142,7 +142,7 @@
   |  End  |  2077  |  551002  |
  
  <b>Environment:</b>&emsp;Odaiba/Tokyo Urban environment [[map](https://www.google.co.jp/maps/@35.6275683,139.7754449,14.75z?hl=ja)]<br>
- <img src="docs/image_run2.png" width="480">
+ <img src="image_run2.png" width="480">
 ***
 ### Data No.3
  <b>Date&emsp;2019/11/02</b><br>
@@ -153,7 +153,7 @@
   |  End  |  2077  |  552679  |
 
  <b>Environment:</b>&emsp;Odaiba/Tokyo Urban environment [[map](https://www.google.co.jp/maps/@35.6343741,139.7892038,15.75z?hl=ja)]<br>
- <img src="docs/image_run3.png" width="480">
+ <img src="image_run3.png" width="480">
 
 ## Contributors
 <b>Junichi Meguro, Meijo University, Japan</b><br>
