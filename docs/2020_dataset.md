@@ -32,7 +32,7 @@
     - GNSS Bands: L5, B2I, E1B/C, L2OF, L2C, B1I, E5b, L1OF, L1C/A
 - <b>Rover GNSS Antenna</b>
   - Model: Trimble Zephyr 3 Rover
-- <b>CLAS GNSS receiver</b>
+- <b>CLAS receiver</b>
   - Model: AQLOC-Light
     - GNSS: Galileo, GPS / QZSS
     - GNSS Bands: L6, L2C, E5b, L1C/A, E1
