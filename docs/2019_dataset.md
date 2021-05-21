@@ -5,7 +5,7 @@
  <b>This dataset is only available to users in Japan until it is ready to be used overseas. (2021/3/11)</b><br>
 ## System Description
 
-<img src="car_image.png" width="512">
+<img src="car_2019_image.png" width="512">
 <img src="car_image_across.png" width="512">
 &emsp;This data was collected in the Odaiba area of Tokyo/Japan.<br>
 &emsp;The data includes information on the following sensors.<br>
@@ -35,6 +35,9 @@
     - Data rate: 10 Hz.
     - GNSS: BeiDou, Galileo, GLONASS, GPS / QZSS
     - GNSS Bands: L2OF, L2C, L5, E1B/C, B2I, E5b, L1C/A, L1OF, B1I
+- <b>Rover GNSS Antenna</b>
+  - Model: AT1675-540 GNSS Antenna (AeroAntenna Technology, Inc.)
+
 
 - <b>Applanix POS LV</b> (high-grade RTK GNSS/INS integrated navigation system)
   - Model: POS LV 220
@@ -155,33 +158,3 @@
  <b>Environment:</b>&emsp;Odaiba/Tokyo Urban environment [[map](https://www.google.co.jp/maps/@35.6343741,139.7892038,15.75z?hl=ja)]<br>
  <img src="image_run3.png" width="480">
 
-## Contributors
-<b>Junichi Meguro, Meijo University, Japan</b><br>
-<b>Taro Suzuki, Chiba Institute of Technology, Japan</b><br>
-<b>Nobuaki Kubo, Tokyo University of Marine Science &Technology, Japan</b><br>
-<b>Kashimoto Takahiro, Meijo University, TOKAI-SOFT Co.,ltd., Japan</b><br>
-
-## Acknowledgment
-<b>This open dataset collection was conducted in the Cabinet Office's “Strategic Innovation Creation Program (SIP) Phase 2 / Autonomous Driving (System and Service Expansion) / Recognition Technology Necessary for Autonomous Driving Technology (Levels 3 and 4).” The project was commissioned by the New Energy and Industrial Technology Development Organization (NEDO).</b><br>
-
-## License
-<b>Copyright (c) 2020, Meijo University All rights reserved.</b><br>
-<br>
-<b>The user must indicate the copyright when using the dataset for the intended purpose.</b><br>
-<br>
-<b>The user may use the dataset under the following conditions</b><br>
-The dataset may be used for research and development purposes by non-profit organizations (universities, public research institutions, individuals) and for-profit organizations.<br>
-The user may distribute copies of the dataset only within the organization to which they belong, provided that they maintain this license.<br>
-The user may process the data and create products by maintaining this license. <br>
-The user may publish the results of using the dataset by maintaining this license.<br>
-<br>
-<b>Prohibited matters</b><br>
-The user may not use the dataset for any act that violates the laws and regulations of Japan or the country or region to which the user belongs.<br>
-The user may not copy or modify the dataset for use in a commercial product.<br>
-The user may not copy the dataset and transfer it to anyone other than their own organization.<br>
-In accordance with the catch-all control of Japan, this dataset is may not be available to those who belong to [the end-user list](https://www.meti.go.jp/english/press/2020/0508_002.html) and the related countries and regions.<br>
-<br>
-<b>Warranty</b><br>
-The user is responsible for all problems and damages caused by the use of this dataset.<br>
-The copyright holder is not responsible for and will not be involved in any problems or damages caused by the user's use of this dataset.<br>
-If the user violates the license, the copyright holder can stop the use of the dataset and require the destruction of the dataset, its copies, and the work product.<br>
