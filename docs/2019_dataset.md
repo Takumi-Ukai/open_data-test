@@ -1,14 +1,14 @@
-# GNSS/IMU Open Data Set for Autonomous Driving
- If you would like to use the data set, please fill out [this form](https://forms.gle/w22wkHnyewGXhJN6A).
- A representative will contact you with the distribution address.<br>
- 
- <b>This dataset is only available to users in Japan until it is ready to be used overseas. (2021/3/11)</b><br>
-## System Description
+## 正式な記載内容は[英語版](https://github.com/MeijoMeguroLab/open_data-test/blob/main/docs/2019_dataset.md)を確認してください.
+
+# 自律走行のためのGNSS/IMUオープンデータセット
+ データセットのご利用をご希望の方は、[[こちら](https://forms.gle/w22wkHnyewGXhJN6A)]
+ のフォームにご記入ください。担当者より配布先をご連絡させていただきます。
+## システム/機材構成の説明
 
 <img src="car_2019_image.png" width="512">
 <img src="car_image_across.png" width="512">
-&emsp;This data was collected in the Odaiba area of Tokyo/Japan.<br>
-&emsp;The data includes information on the following sensors.<br>
+&emsp;東京でのデータ収集のためのプラットフォームはトヨタのシエンタ(Sienta)です。<br>
+&emsp;このプラットフォームには以下のセンサーが搭載されています。<br>
 
 - <b>3D LiDAR</b>
   - Model: Velodyne HDL-32E
@@ -48,34 +48,34 @@
     - Roll and Pitch angle: 0.015 degree
     - True heading: 0.025 degree
 
-## Data Format
+## データフォーマット
 
 - <b>GNSS</b>
 
-  <b>Filename:</b><br>
-  &emsp;Obserbation files of "ROVER" are "rover_ublox.obs" and "rover_trimble.obs".<br>
-  &emsp;Obserbation file of "BASE" is "base_trimble.obs".<br>
-  &emsp;Position of BaseStation was -3961904.9530, 3348993.7578, 3698211.7553 in the ECEF coordinates.<br>
+  <b>ファイル名:</b><br>
+  &emsp;移動局の観測ファイルは "rover_ublox.obs" と "rover_trimble.obs" になります.<br>
+  &emsp;基準局の観測ファイルは "base_trimble.obs" になります.<br>
+  &emsp;BaseStationの位置は、ECEF座標で -3961904.9530, 3348993.7578, 3698211.7553 になります.<br>
   
   <b>RINEX VERSION:</b>&emsp;RINEX 3.02<br>
   
-  <b>Cycle:</b><br>
-  |  File Nmae  |  Cycle  |
+  <b>取得周期:</b><br>
+  |  ファイル名  |  周期  |
   | ---- | ---- |
   |  rover_trimble.obs  |  10Hz  |
   |  rover_ublox.obs  |  5Hz  |
   |  base_trimble.obs  |  1Hz  |
   
-  <b>GNSS Satellites:</b>&emsp;GPS, GLONASS, Galileo, BeiDou, QZSS<br>
+  <b>使用衛星:</b>&emsp;GPS, GLONASS, Galileo, BeiDou, QZSS<br>
   
-  &emsp;&emsp;Carriers, pseudoranges, dopplers, SNRs are includeed.<br>
+  &emsp;&emsp;搬送波位相, 議事距離, ドップラー, SNR情報を含みます.<br>
   
 - <b>IMU</b>
 
-  <b>Filename:</b>&emsp;imu.csv<br>
-  <b>Data Description</b><br>
+  <b> ファイル名:</b>&emsp;imu.csv<br>
+  <b>データ説明</b><br>
   
-  |  Header  |
+  |  ヘッダー  |
   | ---- |
   |  GPS TOW(s)  |
   |  GPS Week  |
@@ -89,18 +89,18 @@
 
 - <b>LiDAR</b>
 
-  <b>Filename:</b>&emsp;lidar.bag<br>
-  <b>Data Description:</b><br>
-  &emsp;The LiDAR data was collected with [the Velodyne_driver of ROS](http://wiki.ros.org/velodyne_driver).<br>
-  &emsp;Velodyne HDL-32E was used. The data is stored in the velodyne_packets message.<br>
+  <b>ファイル名:</b>&emsp;lidar.bag<br>
+  <b>データ説明:</b><br>
+  &emsp;LiDARのデータはVelodyne_driverを元に収集しています。<br>
+  &emsp;Velodyne HDL-32Eを使用しました。データは velodyne_packets メッセージに保存されています。<br>
   
-- <b>True Positions and Poses</b>
+- <b>リファレンス</b>
 
-  <b>Filename:</b>&emsp;reference.csv<br>
-  <b>Data Description:</b><br>
-  &emsp;The true positions and poses were collected by POSLV220 with POSPAc(Postporcess).<br>
+  <b>ファイル名:</b>&emsp;reference.csv<br>
+  <b>データ説明:</b><br>
+  &emsp;位置と姿勢の真値は、POSLV220でPOSPAc(後処理)を用いて収集しました.<br>
   
-  |  Header  |
+  |  ヘッダー  |
   | ---- |
   |  GPS TOW(s)  |
   |  GPS Week  |
@@ -123,38 +123,37 @@
   |  Angular rate Y (rad/s)  |
   |  Angular rate Z (rad/s)  |
 
-## Dataset Description
+## データセット説明
 
-### Data No.1
- <b>Date&emsp;2019/11/02</b><br>
+### 走行データ1
+ <b>日付&emsp;2019/11/02</b><br>
  
   |    |  GPS Week  |  GPS TOW(s)  |
   | ---- | ---- | ---- |
-  |  Start  |  2077  |  545460  |
-  |  End  |  2077  |  548370  |
+  |  開始  |  2077  |  545460  |
+  |  終了  |  2077  |  548370  |
  
- <b>Environment:</b>&emsp;Odaiba/Tokyo Urban environment [[map](https://www.google.co.jp/maps/@35.6275683,139.7754449,14.75z?hl=ja)]<br>
+ <b>環境:</b>&emsp;お台場 Sub-Urban environment [[map](https://www.google.co.jp/maps/@35.6275683,139.7754449,14.75z?hl=ja)]<br>
  <img src="image_run1.png" width="480">
 ***
-### Data No.2 
- <b>Date&emsp;2019/11/02</b><br>
+### 走行データ2 
+ <b>日付&emsp;2019/11/02</b><br>
  
   |    |  GPS Week  |  GPS TOW(s)  |
   | ---- | ---- | ---- |
-  |  Start  |  2077  |  548488  |
-  |  End  |  2077  |  551002  |
+  |  開始  |  2077  |  548488  |
+  |  終了  |  2077  |  551002  |
  
- <b>Environment:</b>&emsp;Odaiba/Tokyo Urban environment [[map](https://www.google.co.jp/maps/@35.6275683,139.7754449,14.75z?hl=ja)]<br>
+ <b>環境:</b>&emsp;お台場 Sub-Urban environment  [[map](https://www.google.co.jp/maps/@35.6275683,139.7754449,14.75z?hl=ja)]<br>
  <img src="image_run2.png" width="480">
 ***
-### Data No.3
- <b>Date&emsp;2019/11/02</b><br>
+### 走行データ3
+ <b>日付&emsp;2019/11/02</b><br>
  
   |    |  GPS Week  |  GPS TOW(s)  |
   | ---- | ---- | ---- |
-  |  Start  |  2077  |  551105  |
-  |  End  |  2077  |  552679  |
+  |  開始  |  2077  |  551105  |
+  |  終了  |  2077  |  552679  |
 
- <b>Environment:</b>&emsp;Odaiba/Tokyo Urban environment [[map](https://www.google.co.jp/maps/@35.6343741,139.7892038,15.75z?hl=ja)]<br>
+ <b>環境:</b>&emsp;お台場 Sub-Urban environment [[map](https://www.google.co.jp/maps/@35.6343741,139.7892038,15.75z?hl=ja)]<br>
  <img src="image_run3.png" width="480">
-
