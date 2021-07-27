@@ -121,6 +121,13 @@
   |  Angular rate X (rad/s)  |
   |  Angular rate Y (rad/s)  |
   |  Angular rate Z (rad/s)  |
+  
+- <b>True Positions and Poses(Semi-dynamic corrected)</b>
+
+  <b>Filename:</b>&emsp;semi-dynamic_corrected_reference.csv<br>
+  <b>Data Description:</b><br>
+  &emsp;The true positions and poses were collected by POSLV220 with POSPAc(Postporcess).<br>
+  &emsp;The true positions and poses were corrected by Semi-dynamic.<br> 
 
 ## Dataset Description
 
